@@ -1,4 +1,4 @@
-# AppLab
+# AppLab (DeskTop optimized)
 
 The HTML code is an HTML document that represents a website layout for an application called "AppLab". It includes various sections such as header with navigation links, hero section, partner section, features sections, pricing section, testimonial section, FAQs section, download section,and a footer.
 
