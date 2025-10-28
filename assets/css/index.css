@@ -309,8 +309,12 @@ aside img {
 }
 
 .features-section-6 .container {
-    margin: 0 0 0 auto;
+    margin: 0 10px 0 auto;
     max-width: 1650px;
+}
+
+.features-section-6 .feature-align {
+    justify-content: space-between;
 }
 
 .features-section-6 .content {
@@ -340,8 +344,8 @@ aside img {
 }
 
 .features-section-6 aside img {
-    max-height: 850px;
-    width: 850px;
+    max-height: 800px;
+    width: 800px;
 }
 
 /* price section  */
