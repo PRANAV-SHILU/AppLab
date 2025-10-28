@@ -493,24 +493,12 @@ li {
     font-size: 45px;
 }
 
-/* .testiminial-person-icon {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-}
-.testiminial-person-icon strong{
-    cursor: pointer;
-    font-size: 31px;
-    background-color: #ebe6e6;
-    padding: 15px;
-    border-radius: 42px;
-}
-.testiminial-person-icon:first-child{
-    border-right: 1px solid gray;
-} */
-
 #testiminial-section aside img {
     width: 1000px;
+}
+
+i {
+    cursor: pointer;
 }
 
 /* faqs section */
@@ -610,9 +598,12 @@ footer p {
 
 footer .faq-icon img {
     height: 30px;
-    margin: 30px 10px 50px;
 }
 
 footer .faq-icon {
-    display: contents;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0 45px 0;
+    float: none;
 }
