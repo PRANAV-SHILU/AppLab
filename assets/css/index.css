@@ -310,22 +310,23 @@ aside img {
 
 .features-section-6 .container {
     margin: 0 0 0 auto;
+    max-width: 1650px;
 }
 
 .features-section-6 .content {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0;
 }
 
-.features-section-6 .feature-align {
-    justify-content: space-between;
+.features-section-6 .feature-title {
+    font-size: 45px;
 }
 
 .features-section-6 .feature-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    max-width: 500px;
+    gap: 100px;
+    max-width: 700px;
 }
 
 .features-section-6 .feature-img {
@@ -333,9 +334,14 @@ aside img {
 }
 
 .features-section-6 .feature-item {
-    max-width: 235px;
-    margin: 0 0 20px 0;
+    max-width: 300px;
     display: block;
+    margin: 0;
+}
+
+.features-section-6 aside img {
+    max-height: 850px;
+    width: 850px;
 }
 
 /* price section  */
@@ -389,6 +395,7 @@ aside img {
 
 .card-2 {
     border: 1px solid darkgray;
+    border-radius: 10px;
 }
 
 .card-1,
@@ -402,8 +409,9 @@ aside img {
 }
 
 .top-part {
-    background: linear-gradient(to bottom, white 10%, rgb(232 250 255));
+    background: linear-gradient(to bottom, white 10%, rgb(255 249 249));
     padding: 20px;
+    border-radius: 10px;
 }
 
 .top-part h2 {
@@ -447,6 +455,12 @@ li {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    /* justify-content: space-between; */
+    max-width: 1650px;
+}
+
+#testiminial-section .feature-item {
+    max-width: none;
     justify-content: space-between;
 }
 
@@ -460,11 +474,39 @@ li {
 }
 
 #testiminial-section .feature-content {
-    max-width: 480px;
+    max-width: 520px;
 }
 
 #testiminial-section .content {
     margin-top: 30px;
+}
+
+#testiminial-section .feature-align {
+    gap: 30px;
+}
+
+#testiminial-section .feature-title {
+    font-size: 45px;
+}
+
+/* .testiminial-person-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.testiminial-person-icon strong{
+    cursor: pointer;
+    font-size: 31px;
+    background-color: #ebe6e6;
+    padding: 15px;
+    border-radius: 42px;
+}
+.testiminial-person-icon:first-child{
+    border-right: 1px solid gray;
+} */
+
+#testiminial-section aside img {
+    width: 1000px;
 }
 
 /* faqs section */
@@ -474,11 +516,12 @@ li {
 
 #faqs-section .feature-content {
     max-width: 555px;
+    margin-bottom: 70px;
 }
 
 .faq {
-    max-width: 720px;
-    background-color: #eafaff;
+    max-width: 1000px;
+    background-color: rgb(249, 249, 249);
     text-align: left;
     margin: 10px 0;
 }
@@ -510,6 +553,7 @@ li {
 
 .download-section .container {
     margin: 0 0 0 auto;
+    max-width: 1650px;
 }
 
 .download-section .feature-align {
@@ -518,7 +562,15 @@ li {
 }
 
 .download-section .feature-content {
-    max-width: 552px;
+    max-width: 600px;
+}
+
+.download-section .feature-title {
+    font-size: 50px;
+}
+
+.download-section .feature-description {
+    margin: 30px 0 50px;
 }
 
 .download-section .feature-content img {
@@ -528,8 +580,8 @@ li {
 }
 
 .download-section aside img {
-    min-height: 450px;
-    width: 720px;
+    max-height: 450px;
+    width: 1000px;
 }
 
 /* footer  */
