@@ -8,7 +8,7 @@ The JavaScript functions control toggling between monthly and annual pricing opt
 
 ---
 
-File Tree: AppLab
+## File Tree: AppLab
 ```
 ────────────────────────────────────────────────────────────────────────────────
 
