@@ -168,13 +168,11 @@
  }
 
  .btn2:hover {
-     background-color: blue;
+     background-color: darkblue;
      border-radius: 40px;
      padding: 15px 15px;
      color: white;
      max-width: 160px;
-     text-align: center;
-     font-weight: bolder;
      transition: background-color 0.2s ease-in-out;
  }
 
