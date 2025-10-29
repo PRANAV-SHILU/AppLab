@@ -581,7 +581,7 @@
      padding: 0 10px;
  }
 
- .faq-icon:hover {
+ #faqs-section .faq-icon:hover {
      transform: scale(1.3);
  }
 
@@ -670,7 +670,7 @@
      color: royalblue;
  }
 
- footer nav li a:hover:not(.btn) {
+ footer nav li a:hover {
      color: burlywood;
  }
 
