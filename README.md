@@ -18,7 +18,6 @@ File Tree: AppLab
 │   ├── 📁 img/
 │   │   ├── 🖼️ appstore.png
 │   │   ├── 🖼️ download-section-img.png
-│   │   ├── 🖼️ facebook.png
 │   │   ├── 🖼️ feature-1.png
 │   │   ├── 🖼️ feature-10.png
 │   │   ├── 🖼️ feature-11.png
@@ -34,7 +33,6 @@ File Tree: AppLab
 │   │   ├── 🖼️ feature-img-1.png
 │   │   ├── 🖼️ feature-img-2.png
 │   │   ├── 🖼️ feature-img-3.png
-│   │   ├── 🖼️ github.png
 │   │   ├── 🖼️ hashtag.png
 │   │   ├── 🖼️ hero-badge.png
 │   │   ├── 🖼️ hero-bg.svg
@@ -47,7 +45,6 @@ File Tree: AppLab
 │   │   ├── 🖼️ playstore.png
 │   │   ├── 🖼️ testimonial-person.png
 │   │   ├── 🖼️ testimonial-world-img.png
-│   │   └── 🖼️ twitter.png
 │   └── 📁 js/
 │       └── 📄 index.js
 ├── 🖼️ Home page.png
