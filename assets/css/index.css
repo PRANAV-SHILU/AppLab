@@ -131,7 +131,7 @@
  .responsive-links .links {
      position: absolute;
      top: 17px;
-     right: 5px;
+     right: 2px;
      z-index: 1000;
      display: none;
      gap: 30px;
