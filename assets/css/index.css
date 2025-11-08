@@ -752,7 +752,7 @@
      }
 
      .responsive-links {
-         display: block;
+         display: grid;
      }
 
      /* .hero-section  */
