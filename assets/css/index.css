@@ -144,7 +144,7 @@
      border-top-left-radius: 10px;
      border-bottom-left-radius: 10px;
      box-shadow: 0px 1px 4px 0 black;
-     margin-right: -14px;
+     margin-right: -10px;
  }
 
  .responsive-links .btn {
@@ -551,7 +551,7 @@
  }
 
  #testiminial-section .feature-img img {
-     width: 70px;
+     min-width: 70px;
      height: 70px;
  }
 
@@ -738,9 +738,21 @@
      height: auto;
  }
 
+ @media (max-width: 1200px) {
+     .container {
+         max-width: 1180px;
+         padding: 0 20px;
+     }
+
+     .hero-visual {
+         width: 400px;
+         height: 600px;
+     }
+ }
+
  @media (max-width: 480px) {
      .container {
-         padding: 0 15px;
+         padding: 0 15px 0 20px;
      }
 
      aside img {
@@ -898,10 +910,6 @@
          font-size: 33px;
      }
 
-     #testiminial-section .feature-img img {
-         min-width: auto;
-     }
-
      #testiminial-section .feature-item {
          gap: 0;
      }
@@ -917,6 +925,10 @@
 
      .faq-content {
          padding: 10px 0 18px 23px;
+     }
+
+     .faq h3 {
+         padding: 20px 25px 25px;
      }
 
 
