@@ -1,27 +1,12 @@
-@media (max-width: 1920px) {
-    #testiminial-section .container {
-        justify-content: space-around;
-    }
-}
-
 @media (max-width: 1400px) {
     .features-section-6 .feature-content {
-        gap: 50px;
+        gap: 30px;
     }
 }
 
 @media (max-width: 1365px) {
-
-    .features-section-6 .feature-align {
-        gap: 0;
-    }
-
     .download-section aside img {
         margin-bottom: -100px;
-    }
-
-    .download-section {
-        margin: 0;
     }
 
     .download-section .feature-content {
@@ -66,10 +51,6 @@
 }
 
 @media (max-width: 1140px) {
-    .features-section-6 .feature-content {
-        gap: 40px;
-    }
-
     .features-section-6 .feature-item {
         max-width: 220px;
     }
@@ -86,10 +67,6 @@
 
     .responsive-links {
         display: grid;
-    }
-
-    .features-section-6 .feature-content {
-        gap: 30px;
     }
 
     #testiminial-section .container {
@@ -126,7 +103,6 @@
     .download-section .feature-content {
         max-width: none;
     }
-
 
     .features-section-5 .feature-align {
         max-width: none;
