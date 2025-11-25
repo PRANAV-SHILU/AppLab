@@ -407,6 +407,7 @@
  .features-section-6 .feature-align {
      flex-wrap: nowrap;
      align-items: normal;
+     gap: 0;
  }
 
  .features-section-6 .feature-title {
@@ -545,7 +546,7 @@
      margin: 0 auto;
      display: flex;
      align-items: center;
-     justify-content: space-evenly;
+     justify-content: space-around;
  }
 
  #testiminial-section .feature-item {
