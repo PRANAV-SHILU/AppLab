@@ -80,10 +80,6 @@
     #testiminial-section .feature-content {
         max-width: none;
     }
-
-    .download-section .feature-content {
-        max-width: 385px;
-    }
 }
 
 @media (max-width: 960px) {
@@ -246,10 +242,6 @@
         flex-direction: column;
     }
 
-    .download-section .feature-content {
-        max-width: fit-content;
-    }
-
     .features-section-6 .content {
         max-width: none;
     }
@@ -346,10 +338,6 @@
 
     .download-section aside img {
         margin-bottom: -46px;
-    }
-
-    .download-section .feature-content {
-        display: contents;
     }
 
     footer {
